@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+}
+  /*  Reset */  
+  body {
+    margin: 0;
+  }
+.page {
+    width: 700px;
+    margin: auto;
+    height: 100vh;
+    max-width: 1240px;
+
+    display: grid;
+    place-items: center;
+}
+.welc-page {
+    display: flex;
+    align-items: center;
+}
+.welc-pic {
+    width: 50%;
+}
+.welc-intro {
+    width: 50%;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem 2rem 1rem 2rem;
+
+}
